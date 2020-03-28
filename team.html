@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+
+    <title>Our_Team</title>
+    <link rel="stylesheet" type="text/css" href="./css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style3.css" />
+  </head>
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img1.jpg" />
+          </div>
+          <div class="details">
+            <h3>team<br /><span>my_site</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img2.jpg" />
+          </div>
+          <div class="details">
+            <h3>{Name}<br /><span>{role}</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img3.jpg" />
+          </div>
+          <div class="details">
+            <h3>{Name}<br /><span>{role}</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img4.jpg" />
+          </div>
+          <div class="details">
+            <h3>{Name}<br /><span>{role}</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img5.jpg" />
+          </div>
+          <div class="details">
+            <h3>{Name}<br /><span>{role}</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img6.jpg" />
+          </div>
+          <div class="details">
+            <h3>{Name}<br /><span>{role}</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img7.jpg" />
+          </div>
+          <div class="details">
+            <h3>{Name}<br /><span>{role}</span></h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="imgBx">
+            <img src="./assets/images/img8.jpg" />
+          </div>
+          <div class="details">
+            <h3>{Name}<br /><span>{role}</span></h3>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script type="text/javascript" src="./js/swiper.min.js"></script>
+    <script>
+      var swiper = new Swiper(".swiper-container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 70,
+          stretch: 0,
+          depth: 500,
+          modifier: 1,
+          slideShadows: true
+        },
+        pagination: {
+          el: ".swiper-pagination"
+        }
+      });
+    </script>
+  </body>
+</html>
