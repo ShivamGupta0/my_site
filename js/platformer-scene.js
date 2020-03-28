@@ -42,10 +42,10 @@ export default class PlatformerScene extends Phaser.Scene {
     );
     this.player = new Player(this, spawnPoint.x, spawnPoint.y);
     const contactButton = this.add.text(2500, 120, "CONTACT US", {
-      fill: "#fff",
+      fill: "#000",
       font: "23px monospace",
       padding: { x: 20, y: 10 },
-      backgroundColor: "#22eef5"
+      backgroundColor: "#fff"
     });
     contactButton.setInteractive();
 
@@ -53,10 +53,10 @@ export default class PlatformerScene extends Phaser.Scene {
       window.location.href = "./contact.html";
     });
     const teamButton = this.add.text(1760, 120, "OUR TEAM", {
-      fill: "#fff",
+      fill: "#000",
       font: "23px monospace",
       padding: { x: 20, y: 10 },
-      backgroundColor: "#22eef5"
+      backgroundColor: "#fff"
     });
     teamButton.setInteractive();
 
@@ -64,10 +64,10 @@ export default class PlatformerScene extends Phaser.Scene {
       window.location.href = "./team.html";
     });
     const aboutButton = this.add.text(1220, 80, "ABOUT US", {
-      fill: "#fff",
+      fill: "#000",
       font: "23px monospace",
       padding: { x: 20, y: 10 },
-      backgroundColor: "#22eef5"
+      backgroundColor: "#fff"
     });
     aboutButton.setInteractive();
 
@@ -75,10 +75,10 @@ export default class PlatformerScene extends Phaser.Scene {
       window.location.href = "./about.html";
     });
     const prodButton = this.add.text(590, 300, "OUR PRODUCTS", {
-      fill: "#fff",
+      fill: "#000",
       font: "23px monospace",
       padding: { x: 20, y: 10 },
-      backgroundColor: "#22eef5"
+      backgroundColor: "#fff"
     });
     prodButton.setInteractive();
 
